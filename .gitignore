@@ -1,0 +1,19 @@
+# Jekyll artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/bundle artifacts
+Gemfile.lock
+.bundle/
+.bundle-cache/
+vendor/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp

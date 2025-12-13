@@ -1,0 +1,24 @@
+---
+layout: page
+---
+
+<div id="page" class="page layout-archive-taxonomy">
+  <h1 class="page-title">{{ page.title | escape }}</h1>
+
+  {%- assign posts = page.posts | default: site.posts -%}
+  {%- if posts and posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in posts -%}
+        <li>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {%- if post.excerpt -%}
+            <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          {%- endif -%}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- else -%}
+    <p>No posts found.</p>
+  {%- endif -%}
+</div>

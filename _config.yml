@@ -1,0 +1,79 @@
+title: qrzn23
+tagline: Notes, projects, and experiments.
+description: >-
+  Personal website for qrzn23 — notes, projects, and experiments.
+url: "https://qrzn23.github.io"
+baseurl: ""
+
+lang: en
+timezone: Etc/UTC
+future: true
+theme: jekyll-theme-chirpy
+theme_mode: dark
+
+author:
+  name: sourcer0r
+  email: qrzn23@gmail.com
+
+github:
+  username: qrzn23
+
+social:
+  name: qrzn23
+  email: qrzn23@gmail.com
+  links:
+    - https://qrzn.xyz
+avatar: /assets/img/avatar.svg
+favicon: /assets/img/favicons/favicon.svg
+
+paginate: 10
+paginate_path: "/page:num/"
+
+exclude:
+  - assets/feed.xml
+  - assets/404.html
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-redirect-from
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: qrzn23
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      nav: true
