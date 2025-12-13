@@ -1,0 +1,10 @@
+---
+# Icons in the sidebar footer
+- type: github
+  icon: "fab fa-github"
+- type: instagram
+  icon: "fab fa-instagram"
+- type: rss
+  icon: "fas fa-rss"
+- type: email
+  icon: "fas fa-envelope"

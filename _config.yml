@@ -1,7 +1,5 @@
-title: qrzn23
-tagline: Notes, projects, and experiments.
-description: >-
-  Personal website for qrzn23 — notes, projects, and experiments.
+title: qrzn.xyz
+tagline: Flow & recursion.
 url: "https://qrzn23.github.io"
 baseurl: ""
 
@@ -13,14 +11,14 @@ theme_mode: dark
 
 author:
   name: sourcer0r
-  email: qrzn23@gmail.com
+  email: node@qrzn.xyz
 
 github:
   username: qrzn23
 
 social:
-  name: qrzn23
-  email: qrzn23@gmail.com
+  name: Jan Landje
+  email: jglandje@qrzn.xyz
   links:
     - https://qrzn.xyz
 avatar: /assets/img/avatar.svg
@@ -28,10 +26,6 @@ favicon: /assets/img/favicons/favicon.svg
 
 paginate: 10
 paginate_path: "/page:num/"
-
-exclude:
-  - assets/feed.xml
-  - assets/404.html
 
 collections:
   tabs:
@@ -64,7 +58,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: qrzn23
+      author: sourcer0r
       comments: false
   - scope:
       path: ""
