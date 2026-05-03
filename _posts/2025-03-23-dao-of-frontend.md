@@ -3,6 +3,7 @@ title: The Dao of Frontend Design
 date: 2025-03-23 09:00:00 +0000
 categories: essays
 tags: frontend design daoism essay
+description: "A wandering Daoist treatise on interface design — framed as koan and dialogue, arguing the best UI is what you remove."
 ---
 
 ## A Wandering Treatise with Marginal Notes of Questionable Value

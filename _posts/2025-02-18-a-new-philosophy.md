@@ -3,6 +3,7 @@ title: A New Philosophy
 date: 2025-02-18 09:00:00 +0000
 categories: essays
 tags: philosophy daoism nietzsche cosmicism thelema stoicism plato mysticism
+description: "A synthesis of Daoism, Nietzsche, Lovecraftian cosmicism, and Crowley's Thelema into a personal philosophy — the Dao as metaphysical current, will-to-power as self-cultivation, and cosmic awe as orientation."
 ---
 
 # Introduction  

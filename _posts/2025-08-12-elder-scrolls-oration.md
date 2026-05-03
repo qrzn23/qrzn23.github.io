@@ -3,6 +3,7 @@ title: On the Spiritual and Philosophical Merits of The Elder Scrolls
 date: 2025-08-12 12:00:00 +0000
 categories: essays
 tags: elder-scrolls morrowind daggerfall skyrim philosophy essay
+description: "A formal oration on the spiritual and philosophical depth of Daggerfall, Morrowind, and Skyrim — examining how the series handles myth, metaphysics, and moral ambiguity."
 ---
 
 ## PART I. INTRODUCTION
