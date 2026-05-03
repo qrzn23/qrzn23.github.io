@@ -3,6 +3,7 @@ title: Building Xenotheric — a Metroid-inspired project in Godot 4
 date: 2025-12-13 12:00:00 +0000
 categories: projects
 tags: godot metroidvania gamedev devlog
+description: "An overview of Xenotheric, a Metroid-inspired side-scroller in Godot 4 — movement design goals, current project state, and what comes next."
 ---
 
 I’ve started a Metroid-inspired side-scroller called **Xenotheric**, built with Godot 4. Here’s a quick overview of what I’m aiming for and how I’m approaching the work.

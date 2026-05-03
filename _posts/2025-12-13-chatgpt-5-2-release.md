@@ -3,6 +3,7 @@ title: ChatGPT 5.2 arrives
 date: 2025-12-13 09:00:00 +0000
 categories: updates
 tags: ai chatgpt release
+description: "Quick notes on ChatGPT 5.2: faster responses, sharper multi-step reasoning, and improved instruction adherence."
 ---
 
 ChatGPT 5.2 is out. Here’s a quick rundown of what changed and what to expect.
