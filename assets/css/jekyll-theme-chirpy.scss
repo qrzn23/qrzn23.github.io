@@ -1,0 +1,24 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Custom accent: dusty violet #9b8ec4 — change the three values below to swap colour */
+html[data-mode='dark'] {
+  --link-color: #9b8ec4;
+  --link-underline-color: #6a5e8f;
+  --toc-highlight: #9b8ec4;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) {
+    --link-color: #9b8ec4;
+    --link-underline-color: #6a5e8f;
+    --toc-highlight: #9b8ec4;
+  }
+}
